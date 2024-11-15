@@ -295,6 +295,10 @@ INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.st
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\beamer\multimedia.sty
+INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\beamer\multimedia.sty
+INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerthemeMadrid.sty
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerthemeMadrid.sty
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamercolorthemewhale.sty
@@ -416,6 +420,13 @@ INPUT .\src\SA.py
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT C:\Users\guiar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
 INPUT src\SA.py
+INPUT .\src\capaVideoEx1.png
+INPUT .\src\capaVideoEx1.png
+INPUT .\src\capaVideoEx1.png
+INPUT .\src\capaVideoEx1.png
+INPUT .\src\capaVideoEx1.png
+INPUT .\src\capaVideoEx1.png
+INPUT .\src\capaVideoEx1.png
 OUTPUT slide.nav
 OUTPUT slide.toc
 OUTPUT slide.snm

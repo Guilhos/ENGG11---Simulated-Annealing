@@ -1,6 +1,8 @@
 \documentclass{beamer}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{multimedia}
+\usepackage{hyperref}
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -188,6 +190,14 @@ Observe que existem mínimos locais em x = -8,834, x = -2,546 e x = 8,817, sendo
     Para este exemplo foram escolhidos os parâmetros: $X_{inicial} = -11$, $T_{inicial} = 60$, $\alpha = 0,75$, $n_1 = 20$, $n_2 = 50$ e $\delta = 1$\\
     Código utilizado:
     \lstinputlisting[language=Python]{src/SA.py}
+\end{frame}
+
+\begin{frame}
+    Trajeto do Algoritmo
+    \begin{center}
+        \centering
+        \href{https://youtu.be/rCaWnHfGmN0}{\includegraphics[width=\textheight, keepaspectratio]{src/capaVideoEx1.png}}
+    \end{center}
 \end{frame}
 
 \begin{frame}{Possíveis melhorias}
