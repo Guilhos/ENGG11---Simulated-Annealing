@@ -1,4 +1,30 @@
 \documentclass{beamer}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+\lstdefinestyle{mystyle}{  
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\tiny,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=1
+}
+
+\lstset{style=mystyle}
 
 \usetheme{Madrid}
 
@@ -103,7 +129,7 @@ para outro mínimo local) é aumentando a energia do sistema.
 \begin{frame}{Critério de aceitação}
     \begin{itemize}
         \item O critério proposto por Metropolis consiste em avaliar a diferença de energia entre a solução
-        atual e a nova solução e calcular $\vartriangle \equiv E^{k+1} -E^k$ . Se $\vartriangle$ é negativo, isto significa que a solução atual é
+        atual e a nova solução e calcular $\vartriangle \equiv E^{k+1} -E^k$. Se $\vartriangle$ é negativo, isto significa que a solução atual é
         melhor que a anterior, e esta última é substituída. Se $\vartriangle$ é positivo, a probabilidade de esta solução de
         maior energia substituir a anterior é dada por $p = e ^ {-\frac{\vartriangle}{T}}$.\\
         \item Como implementar este critério probabilístico de aceitação? Primeiramente é sorteado um
@@ -158,8 +184,10 @@ Observe que existem mínimos locais em x = -8,834, x = -2,546 e x = 8,817, sendo
 último o mínimo global. A função apresenta máximos locais em x= -5,518 e x = 3,914.
 \end{frame}
 
-\begin{frame}{Limitações do algoritmo}
-    
+\begin{frame}
+    Para este exemplo foram escolhidos os parâmetros: $X_{inicial} = -11$, $T_{inicial} = 60$, $\alpha = 0,75$, $n_1 = 20$, $n_2 = 50$ e $\delta = 1$\\
+    Código utilizado:
+    \lstinputlisting[language=Python]{src/SA.py}
 \end{frame}
 
 \begin{frame}{Possíveis melhorias}
